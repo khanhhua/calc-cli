@@ -1,0 +1,38 @@
+{
+  "name": "calc-cli",
+  "version": "0.0.0",
+  "main": "lib/calc-cli.js",
+  "description": "CLI calculator",
+  "homepage": "https://github.com/khanhhua/calc-cli/tree/master",
+  "bugs": "user/repo/issues",
+  "author": {
+    "name": "Khanh Hua",
+    "email": "khanhhua@fatmandesigner.com",
+    "url": "fatmandesigner.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "user/repo"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "files": [
+    ""
+  ],
+  "keywords":[
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.7.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.0",
+    "load-grunt-tasks": "~0.2.0",
+    "time-grunt": "~0.2.0",
+    "jshint-stylish": "~0.1.3"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}
