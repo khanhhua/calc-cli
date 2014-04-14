@@ -11,13 +11,21 @@ calc-cli.awesome(); // "awesome"
 ```
 
 ## Documentation
-_(Coming soon)_
+
+### Features
+
+Evaluate math expression from a bash shell
 
 ## Examples
-_(Coming soon)_
+From bash shell:
+
+```bash
+$ ./calc 1+1
+$ 2
+```
 
 ## Contributing
-In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
+_(Coming soon)_
 
 ## Release History
 _(Nothing yet)_
