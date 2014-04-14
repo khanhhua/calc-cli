@@ -5,8 +5,9 @@ function usage(){
 	console.info('USAGE: calc math-expression');
 }
 
-if (process.argv.length>2)
+if (process.argv.length>2){
 	var expr = process.argv.slice(2);
+}
 else {
 	usage();
 	process.exit();
@@ -15,6 +16,6 @@ else {
 
 expr = expr.join(' '); // Merge all expression tokens
 
-var result = eval(expr);
+var result = calc.evaluate(expr);
 
 console.log(result);

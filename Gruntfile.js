@@ -8,9 +8,6 @@ module.exports = function (grunt) {
 
   // Project configuration.
   grunt.initConfig({
-    nodeunit: {
-      files: ['test/**/*_test.js']
-    },
     jshint: {
       options: {
         jshintrc: '.jshintrc',
@@ -20,7 +17,7 @@ module.exports = function (grunt) {
         src: 'Gruntfile.js'
       },
       lib: {
-        src: ['lib/**/*.js']
+        src: ['calc','lib/**/*.js']
       },
       test: {
         src: ['test/**/*.js']
@@ -59,6 +56,6 @@ module.exports = function (grunt) {
   });
 
   // Default task.
-  grunt.registerTask('default', ['jshint','jasmine_node']);
+  grunt.registerTask('default', ['jasmine_node']);
 
 };
