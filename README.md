@@ -3,12 +3,8 @@
 CLI calculator
 
 ## Getting Started
-Install the module with: `npm install calc-cli`
+Install the module with: `npm install -g calc-cli`
 
-```javascript
-var calc-cli = require('calc-cli');
-calc-cli.awesome(); // "awesome"
-```
 
 ## Documentation
 
